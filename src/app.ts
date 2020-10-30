@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
 });
 
 // Server Listening
-app.listen(3000, () => console.log("Server up and running at port 4000..."));
+app.listen(4000, () => console.log("Server up and running at port 4000..."));
