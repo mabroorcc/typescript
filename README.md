@@ -2,35 +2,35 @@
 
 # Steps
 
-1 => create npm project using [ yarn init ] or [ npm init ]
+=> create npm project using [ yarn init ] or [ npm init ]
 
 
-2 => create tsconfig.json using [ tsc --init ]
+=> add dev dependencies [ yard add -D typescript nodemon]
 
 
-3 => setup [ outDir ]
+=> create tsconfig.json using [ tsc --init ]
 
 
-4 => setup [ rootDir ]
+=> setup [ outDir ]
 
 
-5 => enable [ moduleResolution ]
+=> setup [ rootDir ]
 
 
-6 => add dev dependencies [ yard add -D typescript ts-node nodemon]
+=> enable [ moduleResolution ]
 
 
-7 => add Scripts [
+=> add Scripts [
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
-    "build": "tsc -p ."
+    "build": "tsc"
 ]
 
 
-8 => create [ src ] folder
+=> create [ src ] folder
 
 
-9 => [ npm dev, yarn dev]
+=> [ npm dev, yarn dev]
 
 
 10 => [ yarn build ] to build projects
